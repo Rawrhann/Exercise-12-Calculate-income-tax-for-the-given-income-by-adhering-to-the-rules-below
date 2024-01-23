@@ -9,9 +9,6 @@
 
 #10000*0% + 10000*10%  + 25000*20% = $6000.
 
-
-
-
 (number) = int(input("Enter an Integer: "))
 print ("your number is", number)
 
