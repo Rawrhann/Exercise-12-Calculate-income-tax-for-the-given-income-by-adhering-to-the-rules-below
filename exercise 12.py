@@ -20,3 +20,8 @@ if number <= 10000:
 elif number <= 20000 and number > 10000:
     tax = (number - 10000)/10
     print("your income tax is", tax)
+else: 
+    first_tax = 1000
+    second_tax = (number - 20000) * .2
+    final_tax = first_tax + second_tax
+    print("your income tax is ", final_tax)
