@@ -17,3 +17,6 @@ print ("your number is", number)
 
 if number <= 10000:
     print("your income tax is 0")
+elif number <= 20000 and number > 10000:
+    tax = (number - 10000)/10
+    print("your income tax is", tax)
